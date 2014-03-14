@@ -1,0 +1,8 @@
+<resources>
+    
+    <string name="switch_vendor">Switch Vendor:</string>
+    <string name="switch_revision">Hardware Revision:</string>
+    <string name="switch_version">Software Version:</string>
+    <string name="switch_serial">Serial Number:</string>
+
+</resources>

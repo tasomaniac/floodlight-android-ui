@@ -1,0 +1,88 @@
+<resources>
+
+    <string name="app_name">Floodlight</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_topology">Topology</string>
+    <string name="title_switches">Switches</string>
+    <string name="title_hosts">Hosts</string>
+    <string name="title_ports">Ports</string>
+    <string name="title_flows">Flows</string>
+    <string name="title_flow_manager">Flow Manager</string>
+    <string name="title_patcher">Patch Panel</string>
+    <string name="cat_analyse">Analyse</string>
+    <string name="cat_tools">Tools</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_controller_chooser">Choose Floodlight Controller</string>
+    <string name="sign_in_ip_hint">IP</string>
+    <string name="sign_in_go">GO!</string>
+    <string name="sign_in_port_hint">Port</string>
+    <string name="sign_in_port_default">6633</string>
+    <string name="sign_in_ip_text">Controller IP and Port</string>
+    <string name="sign_up_caption">If you have NFC tag on your controller, please tap your phone.</string>
+    <string name="controller_hostname">Hostname:</string>
+    <string name="controller_health">Health:</string>
+    <string name="controller_memory">JVM Memory:</string>
+    <string name="controller_modules">Modules Loaded:</string>
+    <string name="title_activity_switch_detail">Switch Detail</string>
+    <string name="switch_vendor">Vendor:</string>
+    <string name="switch_revision">H/W Revision:</string>
+    <string name="switch_version">S/W Version:</string>
+    <string name="switch_serial">S/N:</string>
+    <string name="host_mac">Mac: </string>
+    <string name="host_ip">IP: </string>
+    <string name="host_last_seen">Last Seen: </string>
+    <string name="host_attachments">Attachments: </string>
+    <string name="error">Error</string>
+    <string name="controller_error">An error has accured. Try again?</string>
+    <string name="again">Try Again</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="wait">One Moment</string>
+    <string name="title_switch_detail">Switch Detail</string>
+    <string name="title_switch_list">Switches</string>
+    
+    <string name="menu_add">Add</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_rename">Rename</string>
+    <string name="menu_select_all">Select All</string>
+    <string name="menu_delete_all">Delete All</string>
+
+    <string name="flow_form_name_hint">Name</string>
+    <string name="flow_form_actions">Actions</string>
+    <string name="flow_form_match">Match</string>
+    <string name="flow_form_priority_hint">Priority</string>
+    <string name="flow_form_cookie_hint">Cookie</string>
+    <string name="flow_form_idle_timeout_hint">Idle Timeout</string>
+    <string name="flow_form_hard_timeout_hint">Hard Timeout</string>
+    <string name="flow_form_outport_hint">OutPort</string>
+    <string name="flow_form_action_port_hint">Action Port</string>
+    
+    <string name="flow_form_caption">Fill the form below and press PUSH button in order the flow to be pushed to the switch</string>
+    
+    <string name="select_action">Select an action</string>
+    <string name="push">Push</string>
+    <string name="clear">Clear</string>
+    <string name="res_title">Result</string>
+    
+   
+    <string-array name="actions_array">
+        <item >Select an Action</item>
+        <item >output</item>
+        <item >enqueue</item>
+        <item >strip-vlan</item>
+        <item >set-vlan-id</item>
+        <item >set-vlan-priority</item>
+        <item >set-src-mac</item>
+        <item >set-dst-mac</item>
+        <item >set-tos-bits</item>
+        <item >set-src-ip</item>
+        <item >set-dst-ip</item>
+        <item >set-src-port</item>
+        <item >set-dst-port</item>
+    </string-array>
+</resources>

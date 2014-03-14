@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<com.tasomaniac.floodlight.view.MenuScrollView
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md__defaultBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cat_analyse"
+            style="@style/MenuDrawer.Widget.Category" />
+        
+        <TextView
+            android:id="@+id/item_dashboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_dashboard"
+            style="@style/MenuDrawer.Widget.Title"/>
+
+        <TextView
+            android:id="@+id/item_topology"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_topology"
+            style="@style/MenuDrawer.Widget.Title"/>
+        
+        <TextView
+            android:id="@+id/item_switches"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_switches"
+            style="@style/MenuDrawer.Widget.Title" />
+        
+        <TextView
+            android:id="@+id/item_hosts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_hosts"
+            style="@style/MenuDrawer.Widget.Title" />
+        
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cat_tools"
+            style="@style/MenuDrawer.Widget.Category" />
+        
+        
+        <TextView
+            android:id="@+id/item_flow_manager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_flow_manager"
+            style="@style/MenuDrawer.Widget.Title" />
+        
+        
+        <TextView
+            android:id="@+id/item_patcher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_patcher"
+            style="@style/MenuDrawer.Widget.Title" />
+    </LinearLayout>
+</com.tasomaniac.floodlight.view.MenuScrollView>
+<View
+    android:visibility="gone"
+    android:id="@+id/menu_hider"
+    android:layout_height="match_parent"
+    android:layout_width="20dp"
+    android:background="@color/md__defaultBackground"
+    />
+</FrameLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sign_in_form"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/form_caption"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8.0dip"
+            android:text="@string/flow_form_caption"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+        
+        <EditText
+            android:id="@+id/form_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8.0dip"
+            android:hint="@string/flow_form_name_hint"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/action_caption"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="@string/flow_form_actions" />
+        
+        <Spinner 
+            android:id="@+id/form_actions_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8.0dip"
+            android:prompt="@string/select_action"
+            android:entries="@array/actions_array"
+            />
+        
+        <EditText 
+            android:id="@+id/form_action_port"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8.0dip"
+            android:hint="@string/flow_form_action_port_hint"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:singleLine="true"
+            android:visibility="gone"
+            />
+        
+        <EditText
+            android:id="@+id/form_priority"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8.0dip"
+            android:hint="@string/flow_form_priority_hint"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:singleLine="true" />
+        
+        <EditText
+            android:id="@+id/form_cookie"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8.0dip"
+            android:hint="@string/flow_form_cookie_hint"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:singleLine="true" />
+        
+        <EditText
+            android:id="@+id/form_idle_timeout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8.0dip"
+            android:hint="@string/flow_form_idle_timeout_hint"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:singleLine="true" />
+        
+        <EditText
+            android:id="@+id/form_hard_timeout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8.0dip"
+            android:hint="@string/flow_form_hard_timeout_hint"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:singleLine="true" />
+        
+        <EditText
+            android:id="@+id/form_outport"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8.0dip"
+            android:hint="@string/flow_form_outport_hint"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+</ScrollView>

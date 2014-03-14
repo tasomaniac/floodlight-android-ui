@@ -1,0 +1,6 @@
+<resources>
+
+    <item name="activity_item_list" type="layout">@layout/activity_item_twopane</item>
+    <item name="activity_flow_manager" type="layout">@layout/activity_flow_manager_threepane</item>
+
+</resources>
